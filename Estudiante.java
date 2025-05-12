@@ -25,7 +25,7 @@ public class Estudiante {
     @Override
     public String toString() {
         return "ID: " + id + "\n" +  "Nombre: " + nombre +"\n"+ "Teléfono: " + telefono+"\n" +
-               "Carrera: " + carrera +"\n"+ "Semestre: " + "\n"+semestre +
+               "Carrera: " + carrera +"\n"+ "Semestre: " +semestre+"\n" +
                "Gratuidad: " + (gratuidad ? "Sí" : "No");
     }
 }
